@@ -1,0 +1,329 @@
+{
+
+	"version": "2.9.4",
+
+
+
+	"translation":
+	{
+		"navView":
+		{
+			"nav_home": "Home",
+			"nav_route": "Routes",
+				"nav_eiger/heckmair-route": "Eiger:",
+				"nav_eiger/heckmair-route_sub": "Heckmair<br/>Route",
+				"nav_matterhorn/hoernligrat-route": "Matterhorn:",
+				"nav_matterhorn/hoernligrat-route_sub": "Hörnligrat",
+			"nav_instore": "Instore Experience",
+			"nav_project": "Project",
+			"nav_share": "Share",
+				"nav_facebook": "Facebook",
+				"nav_facebook_text": "A mountain experience you’ve never seen before! #PROJECT360 #mountaineering #mammut project360.mammut.ch",
+				"nav_twitter": "Twitter",
+				"nav_twitter_text": "A mountain experience you’ve never seen before! #PROJECT360 #mountaineering #mammut project360.mammut.ch",
+				"nav_google": "Google",
+				"nav_google_text": "A mountain experience you’ve never seen before! #PROJECT360 #mountaineering #mammut project360.mammut.ch",
+				"nav_pinterest": "Pinterest",
+				"nav_pinterest_text": "A mountain experience you’ve never seen before! #PROJECT360 #mountaineering #mammut project360.mammut.ch",
+			"nav_products": "Products",
+				"nav_prod_men": "Men",
+				"nav_prod_men_link": "https://www.mammut.com/cat/10/men/",
+				"nav_prod_women": "Woman",
+				"nav_prod_women_link": "https://www.mammut.com/cat/20/women/",
+				"nav_prod_stuff": "Equipment",
+				"nav_prod_stuff_link": "https://www.mammut.com/cat/30/equipment/",
+			"nav_help": "Help",
+			"nav_language": "Language",
+				"nav_en": "English",
+				"nav_de": "German"
+		},
+
+
+
+		"homeView":
+		{
+			"text_1": "The adventure<br/><span class='highlight red-typo'>#PROJECT360</span>starts here",
+			"text_2": "Interactive climbs are now possible for the first time in the history of alpinism. Experience the most famous routes of the world in a 360° view. <br><span>Please use a smart phone or a tablet of the latest generation or an up-to-date browser for a perfect 360° experience.</span>",
+			"text_3": "Choose a route",
+			"text_4": "PLAY FILM",
+			"text_5": "SKIP FILM",
+			"text_6": "TO VIDEO",
+			"text_7": "Load the App",
+			"text_7_1": "https://play.google.com/store/apps/details?id=ch.mammut.project360",
+			"text_7_2": "https://itunes.apple.com/app/id960575828",
+			"bgVideo":
+			[
+				{"src": "data/videos/Mammut360_HP_Loop.mp4"}
+			],
+			"video":
+			[
+				{"src": "data/videos/Mammut_home.mp4"}
+			]
+		},
+
+
+
+		"routeView":
+		{
+			"text_1": "PANORAMA",
+			"text_2": "HOT SPOTS",
+			"text_3": "HOT SPOT INFO",
+			"text_4": "HELP",
+			"text_5": "MORE ABOUT HECKMAIR ROUTE"
+		},
+
+
+
+		"routeSelectionView":
+		{
+			"eiger":
+			{
+				"headline": "Eiger",
+				"copy": "Experience the ascent of the legendary Eiger North Face as if you would be there as well.",
+				"button": "Start your tour"
+			},
+			"matterhorn":
+			{
+				"headline": "Matterhorn",
+				"copy": "Follow team360 on the famous Hörnligrat route all the way to the summit.",
+				"button": "Start your tour"
+			}
+		},
+
+
+
+		"instoreView":
+		{
+			"pages":
+			[
+				{
+					"thumbnail": "webApp/img/instoreView/nav/btn0.png",
+					"items":
+					[
+						{
+							"pageBgImg": "webApp/img/instoreView/bg-header.jpg",
+							"headline": "VIRTUAL HEIGHTS",
+							"copy": "<p>Discover a new dimension of virtual mountaineering. Only in Mammut Stores, you can now experience all #project360 routes in breathtaking 3D quality - with the Zeiss VR One.</p>",
+							"btns": ["VR One", "Find Store"]
+						}
+					]
+				},
+				{
+					"thumbnail": "webApp/img/instoreView/nav/btn1.png",
+					"items":
+					[
+						{
+							"pageBgImg": "webApp/img/instoreView/bg-tech.jpg",
+							"align": "right",
+							"headline2": "ARE YOU READY FOR THE ULTIMATE VR EXPERIENCE?",
+							"copy": "<p>- The Zeiss VR ONE is a premium virtual reality headset with an innovative design and Zeiss precision optics.<br><br>- Available in every Mammut Store and ready for you to try.<br><br>- Experience the mountain more intensely than ever before and discover the most fascinating routes of the world in a gripping 360° perspective.</p>",
+							"prodGallery":
+							[
+								{
+									"bg": "webApp/img/instoreView/gallery/1bg.png",
+									"front": "webApp/img/instoreView/gallery/1front.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"thumbnail": "webApp/img/instoreView/nav/btn2.png",
+					"items":
+					[
+						{
+							"pageBgImg": "webApp/img/instoreView/bg-store.jpg",
+							"align": "left",
+							"headline2": "LET'S GO HIGH!",
+							"copy": "<p>What are you waiting for? Experience #project360 live and in action - now in your Mammut Store.</p>",
+							"copyBtn":
+							{
+								"text": "Find Store",
+								"url": "https://www.mammut.ch/DE/de_DE/store-finder?country=DE"
+							}
+						}
+					]
+				}
+			]
+		},
+
+
+
+		"projectView":
+		{
+			"pages":
+			[
+				{
+					"thumbnail": "webApp/img/projectView/nav/btn0.png",
+					"items":
+					[
+						{
+							"pageBgImg": "webApp/img/projectView/bg-header.jpg",
+							"headline": "REDISCOVER<br/>THE MOUNTAIN<br/>#PROJECT360",
+							"copy": "<p>Experienced alpinists who don't shy away from extreme challenges. An innovative 360° camera equipment. The result: An interactive mountain experience unlike any other.</p>",
+							"btns": ["Making of", "Technology"]
+						}
+					]
+				},
+				{
+					"thumbnail": "webApp/img/projectView/nav/btn1.png",
+					"items":
+					[
+						{
+							"pageBgImg": "webApp/img/projectView/bg-makingof.jpg",
+							"headline": "#PROJECT360<br/>THE MAKING OF",
+							"videoBtn":
+							{
+								"gallery":
+								[
+									{"src": "data/videos/Mammut_MakingOf_eUT_720p.mp4"}
+								]
+							}
+						}
+					]
+				},
+				{
+					"thumbnail": "webApp/img/projectView/nav/btn2.png",
+					"items":
+					[
+						{
+							"pageBgImg": "webApp/img/projectView/bg-tech.jpg",
+							"align": "right",
+							"headline": "THE 360°<br/>TECHNOLOGY",
+							"copy": "<p>Our challenge: To develop an innovative camera system which can take perfect 360° pictures and videos in the most extreme conditions without unduly hindering the mountain climbers.</p><br/> <h3>Camera technology:</h3> <p><strong>6 outdoor cameras | 1</strong></p> <p><strong>360° camera rig | 2</strong></p> <p><strong>3 USB batteries | 3</strong></p> <p><strong>1 GPS Unit | 4</strong></p> <p><strong>1 telescopic camera arm | 5</strong></p> <p>Endurance test: 24h bei -15°C</p> <br/><h3>Backpack:</h3> <p><strong>Optimized weight distribution | 1</strong></p> <p><strong>Additional stabilization | 2</strong></p> <p><strong>Additional zipper openings | 3</strong></p> <p>Function test: Indoor climbing wall</p> <p>Total weight: <strong>3,5kg</strong></p>",
+							"prodGallery":
+							[
+								{
+									"bg": "webApp/img/projectView/gallery/1bg.png",
+									"front": "webApp/img/projectView/gallery/1front.png"
+								},
+								{
+									"bg": "webApp/img/projectView/gallery/2bg.png",
+									"front": "webApp/img/projectView/gallery/2front.png"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+
+
+
+		"warnViewBrowser":
+		{
+			"headline": "Please use a<br>modern browser",
+			"button": "Load Chrome Browser"
+		},
+
+
+
+		"promoTeaserView":
+		{
+			"button":
+			{
+				"open": "open",
+				"close": "close"
+			}
+		},
+
+
+
+		"newsletterView":
+		{
+			"copy": "Stay informed about new routes, and other interesting Mammut topics. Please fill out the required field.",
+			"placeholderGenderMale": "Mr",
+			"placeholderGenderFemale": "Mrs",
+			"placeholderEmail": "Email",
+			"placeholderName": "First Name",
+			"placeholderLastName": "Surname",
+			"button": "send",
+			"errorMsg": "Error, please verify your input",
+			"successMsg": "Your data was send successfully!",
+			"popupMsg": "Stay informed for new routes and register to our newsletter."
+		},
+
+
+
+		"helpView":
+		{
+			"desktop_h1": "Explore the mountain",
+			"desktop_item1_h": "The 360˚ experience",
+			"desktop_item2_h": "Ascent",
+			"desktop_item3_h": "Explore hot spots",
+			"desktop_item1_p": "Navigate with the arrow keys to view the 360˚ panorama or to look up or down.",
+			"desktop_item2_p": "Click on the arrow symbols above or below on the page to climb up or down the face.",
+			"desktop_item3_p": "Click on the hot spots to get information about the key spots of the tour.",
+
+			"mobile_1": "Touch arrows to climb up or down.",
+			"mobile_2": "Drag left or right to experience the 360˚ view.",
+			"mobile_3": "Or touch here and move your smartphone or tablet around.",
+			"mobile_4": "Explore the route.",
+			"mobile_5": "Find out more about the key spots of the route.",
+			"mobile_6": "Back to the 360˚ view.",
+
+			"keyboard": "Keyboard",
+			"separator": "or",
+			"mouse": "Mouse",
+
+			"button": "Start your tour"
+		},
+
+
+
+		"warnViewRotate":
+		{
+			"headline": "Please rotate<br>your device",
+			"copy": "For a better 360 experience, rotate your device to landscape mode."
+		},
+
+
+
+		"headerInfo":
+		{
+			"home":
+			{
+				"title": "#PROJECT360: START YOUR TOUR",
+				"description": "Interactive climbs are now possible for the first time in the history of alpinism. Experience the most famous routes of the world in a 360° view."
+			},
+			"route/heckmair-route":
+			{
+				"title": "#PROJECT360: EIGER NORTH FACE HECKMAIR ROUTE",
+				"description": "The Heckmair route of the Eiger North Face is legendary. Now you can experience it interactively and in a 360˚ view for the first time."
+			},
+			"team":
+			{
+				"title": "#PROJECT360: THE TEAM360",
+				"description": "The Mammut Pro team athletes Dani Arnold and Stephan Siegrist are our TEAM360 for the first interactive ascent of the Eiger North Face in 360˚ view."
+			},
+			"project":
+			{
+				"title": "#PROJECT360: ALL ABOUT THE PROJECT",
+				"description": "For the first interactive ascent of the Eiger North Face in a 360˚ view, the Mammut Pro athletes Dani Arnold and Stephen Siegrist were equipped with an innovative camera."
+			}
+		},
+
+
+
+		"footerView":
+		{
+			"mammut": "&copy; 2014 Mammut Sports Group",
+			"mammut_url": "#",
+
+			"dataProtection": "Data Protection",
+			"dataProtection_url": "http://project360.mammut.ch/extras/privacy.html",
+
+			"legalNotice": "Legal Notice",
+			"legalNotice_url": "http://project360.mammut.ch/extras/imprint.html",
+
+			"contact": "Contact",
+			"contact_url": "https://www.mammut.com/contact/"
+		},
+
+
+
+		"page404_header": "Don’t lose your way!",
+		"page404_copy": "Looks like you’ve deviated from the route.",
+		"page404_button": "Back to homepage"
+	}
+}
