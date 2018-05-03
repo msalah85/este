@@ -34,7 +34,7 @@ $(document).ready(function () {
 /***************************************************
 	ROTATING INTRO TEXT
 ***************************************************/	
-			$(".rotate").show();
+		$(".rotate").show();
 		$(".rotate").textrotator({
 	     animation: "dissolve",
 	     separator: "*",
@@ -44,8 +44,14 @@ $(document).ready(function () {
 /***************************************************
 	ABOUT OVERLAY
 ***************************************************/
-	var open_overlay = ('#open'), close_overlay = ('#close'), content = ( '.content' ), overlay = ('#overlay'), about = ('#about'),
-	out = ( 'animated fadeOutDown' ), enter = ( 'animated fadeInDown' ), open = ('animated fadeInUpBig'), close = ('animated fadeOutDownBig');
+	var open_overlay = ('#open'), close_overlay = ('#close'), 
+	content = ( '.content' ), overlay = ('#overlay'), 
+	about = ('#about'),
+	out = ( 'animated fadeOutDown' ), 
+	enter = ( 'animated fadeInDown' ), 
+	open = ('animated fadeInUpBig'), 
+	close = ('animated fadeOutDownBig');
+	
 	$(open_overlay).click(function() {
 	$(content).removeClass(enter).addClass(out).fadeOut('slow');
 		setTimeout(function() {
